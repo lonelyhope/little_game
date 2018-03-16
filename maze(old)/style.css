@@ -1,0 +1,159 @@
+#text {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#maze {
+    width: 600px;
+    height: 400px;
+    padding: 0px;
+    margin: auto;
+    border: solid 0px;
+    background-color: #d0b6b6;
+}
+
+#s {
+    float: left;
+    margin-left: 0px;
+}
+#s, #e {
+    border: solid 0px;
+    background-color: #353232;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin-top: 223px;
+    color: white;
+    font-size: 39px;
+    text-align: center;
+}
+#e {
+    float: right;
+    margin-right: 0px;
+}
+
+#p0, #p1, #p2, #p3, #p4 {
+    border: solid 0px;
+    background-color: white;
+}
+
+#p0 {
+    float: left;
+    margin-left: 0px;
+}
+#p0, #p1 {
+    width: 140px;
+    height: 50px;
+    padding: 0px;
+    margin-top: 223px;
+}
+#p1 {
+    float: right;
+    margin-right: 0px;
+}
+
+#p2 {
+    float: left;
+    margin-left: 0px;
+}
+#p2, #p3 {
+    width: 50px;
+    height: 130px;
+    padding: 0px;
+    margin-top: 143px;
+}
+#p3 {
+    float: right;
+    margin-right: 0px;
+}
+
+
+#p4 {
+    width: 220px;
+    height: 50px;
+    margin-top: -180px;
+    float: left;
+    margin-left: 190px;
+}
+
+#w0, #w1, #w2, #w3, #w4 {
+    border: solid 0px;
+    background-color: #9E9E9E;
+}
+
+#w0, #hoverw0 {
+    float: left;
+}
+#w0, #w1, #hoverw0, #hoverw1 {
+    width: 190px;
+    height: 222px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -272px;
+}
+#w1, #hoverw1 {
+    float: right;
+}
+
+div#w2, #hoverw2 {
+    width: 220px;
+    height: 92px;
+    float: left;
+    padding: 0px;
+    margin-top: -272px;
+    margin-left: 190px;
+}
+
+div#w3, #hoverw3 {
+    float: left;
+    padding: 0px;
+    margin-left: 240px;
+    margin-top: -130px;
+    height: 130px;
+    width: 120px;
+}
+
+div#w4, #hoverw4 {
+    width: 600px;
+    height: 127px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    float: left;
+    padding: 0px;
+}
+
+#hoverw0, #hoverw1, #hoverw2, #hoverw3, #hoverw4 {
+	background-color: red;
+	border: solid 0px;
+}
+
+#p {   
+border: solid 0px;
+clear: left;
+margin-top: 10px;
+padding-top: 10px;
+}
+
+#wall {
+    width: 30px;
+    height: 22px;
+    width: 108px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:black;
+    background-color:gray;
+    margin-left: 355px;
+}
+
+.t {
+	text-align: center;
+}
+
+#title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#end {
+    margin-bottom: 15px;
+}
